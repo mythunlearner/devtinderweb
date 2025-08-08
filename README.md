@@ -13,8 +13,14 @@
 - Install axios
 - CORS - install cors in backend = > add middleware to with configurations: origin, credentials: true
 - Whenever you're making API call so pass axios => { withCredentials : true}
+- Install Redux Toolkit -
 - install react-redux + @reduxjs/toolkit =>
 - configureStore => Provider => createSlice => add reducer to store
+- Add redux devtools ins chrome 
+- Login and see data is coming in store
+- Navbar should show one user login
+- refactored code added constant and creaetd component folder 
+- 
 
 Body
    NavBar
