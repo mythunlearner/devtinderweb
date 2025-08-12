@@ -20,7 +20,8 @@
 - Login and see data is coming in store
 - Navbar should show one user login
 - refactored code added constant and creaetd component folder 
-- 
+- you should not be access other routes without login
+- if token is not present, redirect  user to login  page.
 
 Body
    NavBar
