@@ -9,6 +9,7 @@ const Login = () => {
 
    const [emailId, setEmailId] = useState("");
    const [password, setPassword] = useState("");
+   const [error, setError] =useState("");
    const dispatch = useDispatch(); //Dispatch Hook 
    const navigate = useNavigate(); //Navigate to different URL
    const handleLogin = async() => {
@@ -26,7 +27,7 @@ const Login = () => {
       dispatch(addUser(res.data)); //Dispatch and Action 
       return navigate("/"); //naviagte to different page 
     }catch(err){
-        console.error(err);
+        setError(err?.response?.data || "Something went wrong");
     }
    }
 
@@ -92,7 +93,7 @@ const Login = () => {
             At least one lowercase letter <br />
             At least one uppercase letter
           </p>
-
+          <p className='text-red-500'>{error}</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary" onClick={handleLogin}>Login</button>
           </div>

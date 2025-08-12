@@ -22,6 +22,8 @@
 - refactored code added constant and creaetd component folder 
 - you should not be access other routes without login
 - if token is not present, redirect  user to login  page.
+- Logout Feature
+
 
 Body
    NavBar
