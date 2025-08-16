@@ -2,7 +2,7 @@ import React from 'react'
 
 const UserCard = ({ user }) => {
 
-  const {firstName, lastName, photoUrl, gender, age,about} = user;
+  const {firstName, lastName, photoUrl, gender, age, about, emailId} = user;
   console.log("user ==> " + JSON.stringify(user));
   console.log(age);
   console.log(gender);
