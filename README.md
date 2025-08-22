@@ -28,6 +28,11 @@
 - Edit profile Feature
 - Show Toast Message on save profile
 - See all my conections 
+- See all my connection request
+- Feature - Accept/Reject Connection Request
+
+
+
 
 Body
    NavBar
