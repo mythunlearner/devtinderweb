@@ -30,6 +30,7 @@
 - See all my conections 
 - See all my connection request
 - Feature - Accept/Reject Connection Request
+- Send / Ignore the user card from the feed
 
 
 
