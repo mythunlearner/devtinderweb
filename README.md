@@ -72,3 +72,21 @@ Body
       - config nginx - /etc/nginx/sites-available/
       - restart nginx - sudo systemctl restart nginx
       - Modify the BASEURL in frontend project to "/api"
+
+
+   # Adding a custom Domain name
+   - purchased domain name from godaddy
+   - signup on cloudflare & add a new domain name
+   - change the nameservers on godaddy and point to cloudflare
+   - wait for sometime till your nameserver are updated
+   - DNS : record in cloudflare (A record )
+   - Enable Full SSL 
+
+   # Sending Email via SES
+   -  Create an IAM user
+   -  Give Access to AmazonSESFullAccess
+   -  Amazon SES: Create an Identity
+   -  Verify your domain name
+   -  Verify an email address [ either using domain / email address] you have configured
+   - Install AWS SDK - v3
+     -code Excample : https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
