@@ -90,3 +90,17 @@ Body
    -  Verify an email address [ either using domain / email address] you have configured
    - Install AWS SDK - v3
      -code Excample : https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
+
+
+
+     # Scheduling cron jobs in NodeJs
+     - Installing node-cron
+     - Learning about cron expression syntax - crontab.guru
+     - Schedule a Job
+     - date-fns
+     - Find all the unique email Id who have got connection Request in Previous day
+     - Send Email
+     - Explore que mechanism to send bulk emails
+     - Amazon SES Bulk Email Sending
+     - Make sendEmail function dynamic
+     - bee-queue & bull npm package( to handle quque mechanism) 
