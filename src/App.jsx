@@ -11,6 +11,7 @@ import ContactUs from "./components/ContactUs"
 import RefundPolicy from "./components/RefundPolicy"
 import PrivacyPloicy from "./components/PrivacyPolicy"
 import TermsOfServices from "./components/TermsOfServices"
+import Premium from "./components/Premium"
 function App() {
   
 
@@ -28,7 +29,8 @@ function App() {
              <Route path="/contactus" element={<ContactUs/>}></Route>
              <Route path="/refundpolicy" element={<RefundPolicy/>}></Route>
              <Route path="/privacypolicy"element={<PrivacyPloicy/>}></Route>
-              <Route path="/terms"element={<TermsOfServices/>}></Route>
+             <Route path="/terms"element={<TermsOfServices/>}></Route>
+             <Route path="/premium" element={<Premium/>}> </Route>
           </Route>
          
          
