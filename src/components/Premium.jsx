@@ -1,5 +1,5 @@
 
-import BASE_URL from '../utils/constants'; 
+import { BASE_URL } from '../utils/constants';
 import axios from 'axios';
 const Premium = () => {
 
