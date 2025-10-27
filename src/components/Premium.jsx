@@ -14,10 +14,10 @@ const Premium = () => {
   const {amount,keyId,currency,orderId,notes} = order.data;
 
   const  options = {
-    keyId: keyId,
+    key: keyId,
     amount: amount,
     currency: currency,
-    orderId: orderId,
+    order_id: orderId,
     notes: notes,
     name: "DEV Tinder",
     prefill: {
